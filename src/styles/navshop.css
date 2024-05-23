@@ -1,0 +1,238 @@
+.nav-shop {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  transition: 0.5s;
+}
+.scrolledt {
+  background-color: white;
+  display: flex;
+  color: #11696b !important;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  transition: 0.5s;
+}
+.scrolledt .menus .menu-navbars li a,
+.scrolledt .menus .menu-navbars li {
+  color: #11696b !important;
+}
+.profile {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(40%) saturate(856%)
+    hue-rotate(342deg) brightness(87%) contrast(86%);
+}
+.linked {
+  font-weight: 700 !important;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.links,
+.menus {
+  padding-right: 2rem;
+  display: flex;
+  width: 50vw;
+
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.menu-navbars {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  list-style: none;
+
+  align-items: center !important;
+}
+.pic {
+  padding: 10px;
+  padding-left: 4em;
+}
+.language-shop {
+  width: 5vw;
+}
+.language-navbar {
+  width: fit-content;
+  padding-right: 30px;
+}
+p.language-p {
+  padding-left: 0 !important;
+}
+.logout {
+  color: white;
+  cursor: pointer;
+}
+.carted {
+  text-decoration: none;
+  padding: 0.5em !important;
+  width: 0.6em !important;
+  height: 0.6em !important;
+  margin-left: -10px;
+  margin-top: -5px;
+  font-size: 0.6em !important;
+  background-color: #11696b;
+  color: #e8ae44;
+  border-radius: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+
+  align-items: center;
+}
+.cartes {
+  display: flex;
+  align-items: center;
+}
+
+.active::after {
+  display: none;
+}
+@media (max-width: 900px) {
+  .menu-navbars {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+  }
+  #burger-menus {
+    display: block;
+    cursor: pointer;
+    height: 30px;
+    width: 32px;
+    overflow: visible;
+    position: fixed;
+    z-index: 2000;
+    transition: 500ms;
+    margin-right: 130px;
+    top: 20px;
+    left: 100px;
+    padding: 10px;
+    padding-left: 30px;
+  }
+  div.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    position: absolute;
+    left: 0;
+    margin-left: -400px;
+    top: 100%;
+    background-color: #11696b;
+    transition: 0.5s;
+  }
+  #burger-menus span,
+  #burger-menus span:before,
+  #burger-menus span:after {
+    background: #d19c3a;
+    display: block;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+
+  #burger-menus span:before,
+  #burger-menus span:after {
+    content: "";
+  }
+
+  #burger-menus span:before {
+    left: 0px;
+    top: -10px;
+    width: 27px;
+  }
+
+  #burger-menus span {
+    left: 50px;
+    top: 26px;
+    width: 27px;
+  }
+
+  #burger-menus span:after {
+    left: 0px;
+    top: 10px;
+    width: 27px;
+  }
+
+  #burger-menus.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+  }
+
+  #burger-menus.close span {
+    transform: rotate(-45deg);
+    top: 25px;
+    width: 27px;
+  }
+
+  #burger-menus.close span:after {
+    top: 0px;
+    left: 0;
+    transform: rotate(90deg);
+    opacity: 0;
+    width: 0;
+  }
+  .nav-shop {
+    position: absolute;
+    display: flex;
+  }
+
+  .nav-shop {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+  }
+  .logopic {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+  }
+  .logopic {
+    width: 8em;
+    padding: 15px;
+  }
+  div.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    gap: 10px;
+    height: fit-content;
+    position: absolute;
+    justify-content: space-around;
+    left: 0;
+    top: 100%;
+    padding-right: 20px;
+    background-color: white;
+    color: #11696b;
+    transition: 0.5s;
+  }
+  .links {
+    flex-direction: row;
+    gap: 4px;
+    color: #11696b !important;
+  }
+  .links .menu-navbars li a {
+    color: #11696b;
+  }
+  .language-navbar {
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+}

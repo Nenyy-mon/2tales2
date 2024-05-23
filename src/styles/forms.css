@@ -1,0 +1,167 @@
+.allForm {
+  padding-top: 7em;
+  display: flex;
+  flex-direction: column;
+  background-color: #11696b;
+  justify-content: center;
+  align-items: center;
+}
+.err {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #e8ae44;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+.fieldForm {
+  display: flex;
+  border: none;
+  margin: 20px;
+  padding-bottom: 5vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-height: 23em;
+  width: 50vw;
+  border: 1px solid #e8ae44;
+}
+.formUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+legend {
+  font-size: larger;
+  color: #e8ae44;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: ;
+}
+.formButton {
+  margin-top: 0;
+  display: flex;
+  width: 100px;
+  border-radius: 10px;
+  height: 40px;
+  color: #e8ae44;
+}
+
+.formButton:disabled,
+.formButton[disabled] {
+  border: 1px solid #11696b;
+  background-color: #205e5f;
+  color: #6d5a38;
+}
+.error {
+  position: absolute;
+  margin-top: 90px;
+  color: #e8ae44;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+a {
+  color: #e8ae44;
+  text-decoration: none;
+}
+.labelUser {
+  width: 16em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  padding: 0.2em;
+  gap: 4px;
+}
+.inputUser {
+  width: 16em;
+  border-radius: 10px;
+  border: none;
+  margin: 0.02em;
+  padding: 3px;
+}
+input:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  border: 1px solid #d19c3a;
+}
+.instructions {
+  margin: 0;
+  background-color: #083232;
+  border: 1px solid #e8ae44;
+  padding: 1em;
+  position: absolute;
+  width: 15em;
+  margin-left: -19em;
+  margin-top: -10em;
+  font-size: xx-small;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.offscreen {
+  display: none;
+}
+input[type="text"].valid.inputUser {
+  color: #e8ae44 !important;
+  background-color: #11696b;
+  border: 1px solid #e8ae44;
+}
+input[type="text"].invalid.inputUser {
+  border: 1px solid rgb(205, 40, 40);
+}
+p,
+p.account {
+  color: white;
+}
+.red {
+  border: 1px solid red;
+}
+@media (max-width: 1150px) {
+  .labelUser {
+    width: 12em;
+  }
+  .inputUser {
+    width: 12em;
+  }
+  .fieldForm {
+    padding-bottom: 4em;
+  }
+}
+@media (max-width: 850px) {
+  .labelUser {
+    width: 10em;
+    padding: 0;
+    margin: 0em;
+  }
+  .inputUser {
+    width: 10em;
+  }
+  .fieldForm {
+    width: 80vw;
+    flex-direction: column;
+    padding-bottom: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .formUser {
+    flex-direction: column;
+  }
+  .labelUser {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .inputUser {
+    width: 100%;
+  }
+  .fieldForm {
+    flex-wrap: wrap;
+    width: 70vw;
+    flex-direction: row;
+    height: 75vh;
+    max-height: fit-content;
+  }
+}

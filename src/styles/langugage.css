@@ -1,0 +1,10 @@
+select {
+  display: flex;
+  background-color: #11696b;
+  color: #e8ae44;
+  padding: 3px;
+  border-radius: 10px;
+}
+select-selected {
+  background-color: #11696b;
+}

@@ -1,0 +1,41 @@
+.mainAge {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #11696b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+.dissapear {
+  visibility: hidden;
+  display: none;
+}
+.upperAge {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.upperAge h1 {
+  text-align: center;
+  color: #e8ae44;
+  font-size: xx-large;
+}
+.upperAge img {
+  width: 20em;
+}
+.downAge {
+  display: flex;
+}
+button.Yes,
+button.No {
+  width: 10em !important;
+  border-radius: 10px !important;
+  padding: 30px !important;
+  font-size: larger !important;
+  color: #e8ae44 !important;
+}

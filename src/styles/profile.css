@@ -1,0 +1,26 @@
+.profileInfo {
+  padding-top: 7em;
+  background-color: #11696b;
+  height: 10vh;
+}
+.SignLoginup {
+  padding-top: 7em;
+  padding-bottom: 7em;
+  background-color: #11696b;
+  margin: 0;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SignLoginup p {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: large;
+}
+.SignLoginup p span {
+  color: #e8ae44;
+  cursor: pointer;
+}

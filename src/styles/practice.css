@@ -1,0 +1,82 @@
+.mainComps {
+  background-color: #0e5657;
+  /* width: fit-content;
+    height: fit-content; */
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.divuP {
+  height: 200px;
+  width: 100%;
+  background-color: #11696b;
+}
+.bottlesw {
+  width: 60vw;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 20px;
+  object-position: center;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addUnadd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #094b4c;
+  color: white;
+  font-weight: 800;
+}
+.addCart {
+  background-color: #094b4c;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 5px 0px rgba(9, 75, 76, 0.75);
+  -webkit-box-shadow: -2px 4px 5px 0px rgba(9, 75, 76, 0.75);
+  -moz-box-shadow: -2px 4px 5px 0px rgba(9, 75, 76, 0.75);
+  transition: 500ms;
+}
+.addCart:hover {
+  cursor: pointer;
+  scale: 1.052;
+}
+.addCart:active {
+  scale: 1;
+  box-shadow: none;
+  background-color: #11696b;
+}
+.maing {
+  background-color: hsl(181, 73%, 24%);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 10px;
+  padding-top: 130px;
+}

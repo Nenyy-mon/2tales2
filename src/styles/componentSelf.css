@@ -1,0 +1,63 @@
+.componentMain {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+}
+.compLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compRight {
+  width: 50%;
+  background-color: #0e5657;
+}
+.pice {
+  width: 500px;
+}
+.nameSelf {
+  font-size: 3em;
+}
+.price {
+  color: #d19c3a;
+  font-size: 2rem;
+  margin: 1px;
+}
+.compRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CartBut {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.add-Cart {
+  display: flex;
+  align-items: center;
+}
+.carteds {
+  width: fit-content;
+  border-radius: 20px;
+  display: flex;
+  font-weight: 400;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  padding-bottom: 18px;
+  font-family: Ignotum;
+}
+.description {
+  width: 80%;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 2px;
+  align-self: center;
+  font-size: 1.2em;
+}

@@ -1,0 +1,13 @@
+body,
+html {
+  margin: 0;
+  font-family: "Ignotum" !important;
+  padding: 0;
+  width: 100vw;
+}
+.mainPage {
+  width: 100vw;
+}
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,56 @@
+body {
+  overflow-x: hidden;
+}
+
+.maine {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  gap: 5em;
+  height: fit-content;
+  padding: 10px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background-color: #094b4c;
+  z-index: 200 !important;
+  justify-content: center;
+  align-items: center;
+}
+.mainer {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  gap: 5em;
+  height: fit-content;
+  padding: 10px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.maines {
+  background-color: hsl(181, 73%, 24%);
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  align-self: center;
+  color: white;
+  font-size: 300%;
+  letter-spacing: 5px;
+}
+.bottles {
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  gap: 20vw;
+  justify-content: space-around;
+}

@@ -1,0 +1,71 @@
+.mainGall {
+  margin: 0;
+  padding: 0;
+  background-color: #11696b;
+  width: 100vw;
+  height: 170vh;
+}
+.mainPic {
+  height: 50em;
+  width: 100%;
+  background-image: url("../assets/images/extension.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainPic::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.493);
+  backdrop-filter: blur (2px);
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.BluLogo {
+  position: absolute;
+}
+.galleryGal {
+  height: auto;
+  width: 100%;
+  margin-right: 20px;
+
+  background-color: black;
+}
+.imag {
+  transition: 0.5s;
+}
+.imag:hover {
+  scale: 1.01;
+  cursor: pointer;
+}
+.slides {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 6000;
+  overflow: hidden;
+  background-color: black;
+}
+.selectedSlide {
+  width: 90%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.exit {
+  display: flex;
+  position: absolute;
+  top: 0;
+  font-weight: 100;
+}
+

@@ -1,0 +1,54 @@
+.cartDivHeader {
+  background-image: url("../assets/images/Loayer 4.jpg");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(1px);
+}
+.cartDivHeader::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0.7;
+  z-index: 0;
+}
+.back {
+  z-index: 2001;
+  position: absolute;
+  text-align: center;
+  display: flex;
+}
+.backSecond {
+  z-index: 2001;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  margin-top: 150px;
+  color: white;
+}
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1100px) {
+  .cartDivHeader {
+    height: 70vh;
+  }
+}
+@media (max-width: 600px) {
+  .cartDivHeader {
+    height: 40vh;
+    margin-top: 10vh;
+  }
+}

@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+  background-color: rebeccapurple;
+  width: 10px;
+}
+::-webkit-scrollbar-button {
+  background-color: #042e2f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0b4a4b;
+  border-radius: 5px;
+  width: 100%;
+}
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #11797b;
+}
+::-webkit-scrollbar-corner {
+  background-color: blueviolet;
+}
+::-webkit-resizer {
+}

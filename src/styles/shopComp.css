@@ -1,0 +1,108 @@
+.mainComp {
+  background-color: #0e5657;
+  /* width: fit-content;
+  height: fit-content; */
+  width: fit-content !important;
+  display: flex;
+  flex-direction: column;
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 25%;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.bottle {
+  width: 15em;
+  object-fit: cover;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addUnadd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #094b4c;
+  color: white;
+  font-weight: 800;
+}
+.addCart {
+  background-color: #094b4c;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: -2px 4px 5px 0px rgba(9, 75, 76, 0.75);
+  -webkit-box-shadow: -2px 4px 5px 0px rgba(9, 75, 76, 0.75);
+  -moz-box-shadow: -2px 4px 5px 0px rgba(9, 75, 76, 0.75);
+  transition: 500ms;
+}
+.addCart:hover {
+  cursor: pointer;
+  scale: 1.052;
+}
+.addCart:active {
+  scale: 1;
+  box-shadow: none;
+}
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headImg {
+  background-image: url("../assets/images/Loayer 4.jpg");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(1px);
+}
+.headImg::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0.7;
+  z-index: 0;
+}
+.backHeader {
+  z-index: 2001;
+  position: absolute;
+}
+@media (max-width: 1100px) {
+  .headImg {
+    height: 70vh;
+  }
+}
+@media (max-width: 600px) {
+  .headImg {
+    height: 40vh;
+  }
+}
