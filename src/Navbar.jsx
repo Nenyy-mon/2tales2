@@ -51,7 +51,6 @@ function Navbar() {
                 <div className={!isMenuOpen ? 'closed' : 'menu'}>
                     <ul  className="menu-navbar">
                        <li onClick={scrollToTop} ><NavLink className='linked color' to="/">{t("HOME")}</NavLink></li>
-                       <li onClick={scrollToTop}><NavLink className='linked color' to="/2tales/gallery">{t("GALLERY")}</NavLink></li>
                        <li onClick={scrollToTop}><NavLink className='linked color' to="/2tales/shop">{t("SHOP")}</NavLink></li>
                        <li onClick={scrollToTop}><NavLink className='linked color' to="/2tales/about">{t("ABOUT US")}</NavLink></li>
                        

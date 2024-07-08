@@ -36,7 +36,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<MainPage/>} /> 
       <Route path="/2tales" element={<MainPage/>} /> 
-      <Route path="/2tales/gallery" element={<Gallery/>} />
       <Route path="/2tales/shop" element={<Shop/>} />
       <Route path="/2tales/about" element={<AboutUs/>} />
       <Route path="/2tales/shop" element={<Shop/>} />
