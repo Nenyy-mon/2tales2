@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "http://localhost:1534",
+  "proxy": "https://twotales2-api.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
